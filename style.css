@@ -3,5 +3,30 @@ body {
   }
 h1 {
     background-color: darkblue;
-    color:deeppink
+    color:deeppink;
+    margin-left: 30px;
+    text-decoration:overline;
 }
+nav {
+    float:right;
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 85px;
+}
+
+nav a {
+    color:deeppink;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ nav a:hover {
+    color:blueviolet
+ }
